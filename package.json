@@ -7,6 +7,7 @@
     "pretest": "standard",
     "test": "npm run build && mocha test/integration test/unit",
     "build": "browserify index.js > braintree-angular.dist.js",
+    "build-bower": "browserify index.js > dist/braintree-angular.js",
     "example": "node examples/server"
   },
   "repository": {
